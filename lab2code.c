@@ -59,9 +59,9 @@ int main(void)
     printf("Потужність перерізу (%d)", a);
     //об'єднання
     printf("Об'єдняння = {");
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < n; i++) {
         int c = 1;
-            for (int j = 0; j < n; j++){
+            for (int j = 0; j < m; j++){
         if (p[i] == t[j])
           c = 0;
             }
